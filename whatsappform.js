@@ -1,4 +1,3 @@
-    <script>
 //<![CDATA[
 /*
 * Wendy Code Checkout Form Whatsapp And Email
@@ -150,4 +149,3 @@ var whatsapp_link = walink + '?phone=' + phone + '&text=' + walink2 + '%0A%0A' +
   }
 };
 //]]> 
-</script>
