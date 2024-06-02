@@ -1,0 +1,43 @@
+<div class='wendy-checkout-wrap'>
+<div class='wendy-checkout-content'>
+<div class='wendy-close'>
+<a class='tombol-bukatutup' href='javascript:void(0);'>&#10005;</a>
+</div>
+<div class='img-produk'>
+<img expr:alt='data:post.title' expr:src='resizeImage(data:post.thumbnailUrl,150)' expr:title='data:post.title'/>
+<div class='info-produk'>
+<div id='nama_produk'><data:post.title/></div>
+<br/>Harga :
+<span class='harga-s'></span>
+<i>*Belum termasuk Ongkos kirim</i>
+</div></div>
+<div id='wendy-belanja'>
+<div id='wendy-konfirmasi'>
+<div class='wendy-datainput'>
+<input class='validate' id='namalengkap' name='Nama' placeholder='Nama Anda' required='' type='text' value=''/>
+</div>
+<div class='wendy-datainput'>
+<input class='validate' id='nomorWA' name='No HP' placeholder='No HP' required='' type='number' value=''/>
+</div>
+<div class='wendy-datainput'>
+<input class='validate' id='email' name='Email' placeholder='Email' required='' type='text' value=''/>
+</div>
+<div class='wendy-datainput'><select class='validate' id='pembayaran' name='No Rekening'>
+<option hidden='hidden' selected='selected' value='default'>Pembayaran</option>
+<option value='1'>Mandiri</option>
+<option value='2'>Gopay</option>
+<option value='3'>OVO</option>
+<option value='4'>QRIS Lainnya</option>
+<option value='5'>Paypal</option>
+</select></div>
+<div class='wendy-datainput'>
+<input class='validate' id='alamat' name='Alamat' placeholder='Alamat' required='' type='text' value=''/>
+</div>
+</div>
+<a class='send_form' id='to_wa' href='javascript:;' title='Pesan via whatsapp' type='submit'>Pesan via whatsapp</a>
+<a class='send_form' id='to_mail' href='javascript:;' title='Pesan via Email' type='submit'>Pesan via Email</a>
+</div>
+</div>
+</div>
+
+<script async='async' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>

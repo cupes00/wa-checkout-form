@@ -1,0 +1,28 @@
+/*formulir checkout whatsapp dan email by wendy code*/
+.wendy-checkout-content{position:absolute;top:50%;left:50%;padding:35px 10px 10px 10px;transform:translate(-50%,-45%);background-color:#fff;border-radius:.5rem;max-width:500px;width:90%;box-shadow:inset 0 2px 6px 0 rgba(49,53,59,.12);max-height:calc(100vh - 150px);overflow:auto;margin:auto}
+.wendy-checkout-content:hover{overflow-x:hidden;overflow-y:auto}
+.wendy-checkout-content .wendy-close{position:absolute;right:15px;top:3px;font-size:15px;}
+.wendy-checkout-content .wendy-close:before{content:'Close';position:relative;right:2px;top:0;font-size:12px;color:#999}
+.wendy-checkout-content .wendy-close a.tombol-bukatutup{width:auto;background:transparent;color:#999;padding:;text-decoration:none}
+.wendy-checkout-wrap{position:fixed;z-index:999;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.5);display:none;}
+#wendy-belanja{padding:5px;display:block}
+#wendy-konfirmasi{display:grid;grid-template-columns:1fr 1fr;grid-gap:0 15px}
+.wendy-datainput{position:relative;margin-bottom:5px;margin-right:5px}
+.wendy-datainput select{padding:12px 0;color:#555;font-size:14px;width:100%;border:0!important;border-bottom:1px solid #ddd!important;outline:none;background:#fff}
+.wendy-datainput input{font-size:14px;padding:12px 0!important;display:block;width:100%;border:none!important;border-bottom:1px solid #ddd!important}
+.wendy-datainput input:focus{outline:none}
+.wendy-datainput label{color:#999;font-size:14px;font-weight:400;position:absolute;pointer-events:none;left:0;top:10px;transition:.2s ease all}
+.wendy-datainput .focus{box-shadow:inset 0 -1px 0 0 #f89000!important}
+.wendy-datainput .wendy-validasi{position:absolute;z-index:2;top:calc(100% + 20px);left:0;background:#f89000;color:#fff;padding:5px 10px;border-radius:3px;font-size:80%;box-shadow:0 5px 10px rgba(0,0,0,.08);transition:.4s;visibility:hidden;opacity:0;display:inline-block!important}
+.wendy-datainput .wendy-validasi.show{visibility:visible;opacity:1;top:calc(100% + 10px)}
+.wendy-datainput .wendy-validasi:after{position:absolute;bottom:100%;left:12px;content:'';border:8px solid;border-color:transparent transparent #f89000 transparent}
+a.send_form{position:relative;display:inline-block;background:#f89000;color:#ffffff;padding:7px;border-radius:5px;text-align:center;font-size:13px;font-weight:400;text-decoration:none;margin-top:5px}
+.img-produk{display:grid;grid-template-columns:1fr 2.7fr}
+.img-produk img{max-width:150px;float:left;margin:10px 15px 0 0;border-radius:5px}
+.info-produk{font-size:13px;margin-top:10px}
+.info-produk i{color:#999;font-size:11px;margin:8px 0;display:block}
+#nama_produk{font-size:20px;font-weight:600}
+
+/*css darkmode sesuaikan classnya jika berbeda atau hapus bagian ini*/
+.darkMode .send_form,.darkMode .tombol-bukatutup{color:#fff}
+.darkMode .wendy-checkout-content,.darkMode .wendy-datainput select,.darkMode .wendy-datainput input{background-color:#252526!important}

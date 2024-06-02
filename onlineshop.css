@@ -1,0 +1,50 @@
+/* css untuk post produk by wendy code */
+.gambar-produk{float:left;width:40%;margin:0 25px 0 0}
+.produk-kanan{float:right;width:55%}
+.gambar-produk img{width:100%;margin:15px 0;border-radius:5px;box-shadow:0 2px 8px 0 rgb(60 64 67 / 11%)}
+.gambar-produk a:nth-child(n+2) img{width:35%!important;height:100px!important;object-fit:cover;float:left;margin-right:10px}
+.deskripsi-produk{overflow:hidden;width:100%;padding:20px 0;border-top:1px solid #eee}
+.status-produk{margin:10px 0 20px;font-size:13px;background:#f4f5f9;display:inline-block;color:#444;padding:3px 15px;border-radius:5px}
+.produk-kanan #beli-sekarang{color:#fff;font-weight:600;padding:10px 25px;display:inline-block;border-radius:5px}
+.input-field{position:relative;margin:15px 0}
+.input-field textarea{font-size:15px;padding:15px 0 15px 15px;display:block;width:94%;border:1px solid #f4f5f9;border-radius:7px}
+.input-field textarea:focus{outline:none}
+.input-field textarea:focus{border:2px solid #f89000!important}
+.produk-kanan #beli-sekarang{background:#f89000;text-decoration:none}
+.produk-kanan #beli-sekarang:hover,.marketplace a:hover{opacity:.8}
+.harga-produk #harga{color:#f89000;font-weight:700;font-size:25px}.harga-produk strike{opacity:.5}
+.marketplace{margin:20px 0 30px; display:flex;flex-wrap:wrap; line-height:1.6em}
+.marketplace > *{display:block}
+.marketplace > small{width:100%; margin-bottom:10px}
+.marketplace > a{display:inline-flex;align-items:center;justify-content:center; width:40px;height:40px; margin:0 8px 8px 0;border:1px solid #ddd;border-radius:3px}
+.marketplace > a:last-of-type{margin-right:0}
+.marketplace > a img{width:20px;height:20px;display:block}
+@media screen and (max-width:768px){
+.produk-kanan{width:100%;float:none}
+.gambar-produk a:nth-child(n+2) img,.gambar-produk{width:100%;float:left}
+}
+
+/* table produk */
+table.tr-caption-container{min-width:inherit;width:auto;margin:0 auto;border:0;position:relative}
+table.tr-caption-container tr td{background-color:transparent;border:0;padding:0}
+table.tr-caption-container tr:nth-child(2n+1) td, table.tr-caption-container tr:nth-child(2n+1) td:first-child{border:0;background:transparent}
+table.tr-caption-container .tr-caption{display:block;font-size:12px;font-style:italic;color:#767676;background-color:transparent;border:0}
+table{width:100%;margin:20px 0px;border:1px solid rgba(230,230,230,1);border-radius:7px;overflow:hidden;font-size:14px}
+table th{background-color:transparent;padding:15px 20px;border:1px solid #ddd;border-left:0;font-family:Noto Sans;font-size:13px}
+table th:last-child, table tr td:last-child, table tr:nth-child(2n) td:last-child{border-right:0}
+table td{padding:15px 20px;border:1px solid #ddd;border-left:0;border-top:0;vertical-align:middle}
+table tr:nth-child(2n+1) td{background-color:rgba(0,0,0,.01)}
+.table{display:block;overflow-y:hidden;overflow-x:auto;border-radius:3px;scroll-behavior:smooth;}
+
+/* rating produk */
+.rating-produk i.icon-star-angka{font-weight:400;font-size:12px;margin-left:5px;vertical-align:1px}
+.rating-produk{padding:0;width:55%;float:left;box-sizing:border-box;margin-top:10px}
+b.widget-rating{display:block;margin-bottom:10px}
+i.icon-star,.icon-star{font-weight:400;font-style:normal;display:inline-block}
+i.icon-star:before,.icon-star:before{content:'';width:17px;height:17px;display:inline-block;margin:-2px;transition:all .3s ease;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' fill='%23ffc53e'/%3E%3C/svg%3E") no-repeat}
+i.icon-star.silver:before,i.icon-star.silver:before{content:'';width:17px;height:17px;display:inline-block;margin:-2px;transition:all .3s ease;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' fill='%23a9acad'/%3E%3C/svg%3E") no-repeat}
+
+/* css darkmode sesuaikan classnya jika berbeda atau hapus bagian ini */
+.darkMode table th,.darkMode table td{border-color:rgba(255,255,255,.1)}
+.darkMode table{background-color:#1e1e1e;color:#fefefe}
+.darkMode .input-field textarea,.darkMode .status-produk{border-color:rgba(255,255,255,.1);background:#2d2d30;color:#fefefe}
