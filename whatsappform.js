@@ -68,7 +68,7 @@ if ($('#namalengkap').val() == '') { // validasi Nama Lengkap
     } else {
  
    /* Pengaturan Email */
-var email = 'yourmail@gmail.com', //Alamat Email Kalian
+var email = xaviernur@gmail.com', //Alamat Email Kalian
     maillink = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=',
     mailsubject = '&subject=Konfirmasi Pembelian ', //Subjek Email Namun Hanya Muncul Di SmartPhone Saja
     maillink1 = '',
@@ -76,7 +76,7 @@ var email = 'yourmail@gmail.com', //Alamat Email Kalian
     maillink2 = '&body=Halo saya ingin membeli produk anda dengan keterangan berikut: ', //Pesan Pembuka di email
     
     /* Pengaturan Whatsapp */ 
-    phone = '628131123xxxx', // Nomor Whatsapp Kalian
+    phone = '6281232921092', // Nomor Whatsapp Kalian
     walink = 'https://web.whatsapp.com/send', 
     walink2 = 'Halo saya ingin membeli produk anda dengan keterangan berikut:'; // Pesan Pembuka di whatsapp
       
